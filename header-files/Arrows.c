@@ -1,0 +1,68 @@
+void Left_arrow()
+{
+	turnOnLED(3,7);
+	turnOnLED(3,6);
+	turnOnLED(3,5);
+	turnOnLED(3,4);
+	turnOnLED(3,3);
+	turnOnLED(3,2);
+	turnOnLED(3,1);
+	turnOnLED(2,6);
+	turnOnLED(1,5);
+	turnOnLED(0,4);
+	turnOnLED(4,6);
+	turnOnLED(5,5);
+	turnOnLED(6,4);	
+    return;
+}
+void Right_arrow()
+{
+	turnOnLED(3,6);
+	turnOnLED(3,5);
+	turnOnLED(3,4);
+	turnOnLED(3,3);
+	turnOnLED(3,2);
+	turnOnLED(3,1);
+	turnOnLED(3,0);
+	turnOnLED(2,1);
+	turnOnLED(1,2);
+	turnOnLED(0,3);
+	turnOnLED(4,1);
+	turnOnLED(5,2);
+	turnOnLED(6,3);
+    return;
+}
+void Up_arrow()
+{
+	turnOnLED(0,3);
+	turnOnLED(1,3);
+	turnOnLED(2,3);
+	turnOnLED(3,3);
+	turnOnLED(4,3);
+	turnOnLED(5,3);
+	turnOnLED(6,3);
+	turnOnLED(1,2);
+	turnOnLED(2,1);
+	turnOnLED(3,0);
+	turnOnLED(1,4);
+	turnOnLED(2,5);
+	turnOnLED(3,6);
+    return;
+}
+void Down_arrow()
+{
+	turnOnLED(7,3);
+	turnOnLED(6,3);
+	turnOnLED(5,3);
+	turnOnLED(4,3);
+	turnOnLED(3,3);
+	turnOnLED(2,3);
+	turnOnLED(1,3);
+	turnOnLED(6,2);
+	turnOnLED(5,1);
+	turnOnLED(4,0);
+	turnOnLED(6,4);
+	turnOnLED(5,5);
+	turnOnLED(4,6);
+    return;
+}
